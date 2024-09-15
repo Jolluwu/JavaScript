@@ -1,0 +1,40 @@
+#container{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color:rgb(27, 91, 187);
+    align-items: center;
+
+}
+#input_pais{
+    width: 90%;
+    height: 20px;
+    border-radius: 30px;
+    font-size:x-large ;
+    padding: -left 15px;
+    font-family: 'Courier new','Courier New', 'monospace';
+
+}
+#button_search{
+    width: 10%;
+    height: 20px;
+    border-radius: 50px;
+}
+#pais_information{
+    width: 100%;
+    height: 670px;
+background-color: rgb(194, 222, 241);
+margin-top: 30px;
+display: flex;
+flex-direction: column;
+align-items: center;
+border-radius: 10px;
+
+}
+#pais_information {
+    text-align: center;
+}
+#show-info img {
+    width: 50px; 
+    margin: 0 auto;
+}
